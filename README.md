@@ -23,6 +23,10 @@ Gitbash
 cd RachnaAssignment 
 npm install
 npm init playwright@latest 
+# Github Link - 
+ https://github.com/RachnaSakalle/RachnaAssignment  
+
+
 
 # 1.	How to run the tests
 # a.	headed and headless
@@ -33,18 +37,18 @@ npm init playwright@latest
 #  1.  Run Tests
 --(a) **Head less** 
 Headless (default)
-Cmd - npx playwright test
+Command - npx playwright test
 --(a) **Headed**
 Headed mode
-npx playwright test --headed
+Command - npx playwright test --headed
 -- (b)Run in **parallel**
-Cmd - npx playwright test --workers=4
+Command - npx playwright test --workers=4
 
--- (c)**screenhots**
+-- (c)**screenshots**
 View HTML report
-Cmd - npx playwright show-report
+Command - npx playwright show-report
 Open Trace
-Cmd - npx playwright show-trace trace.zip
+Command - npx playwright show-trace trace.zip
 
 
 # 2. How did you design the framework to be scalable and maintainable?
@@ -100,7 +104,6 @@ RachnaAssignment/
 --Data factory pattern for test data
 --API setup/teardown to speed up tests
 --Custom reporter for dashboard integration
-
 
 
 Browsers run web content belonging to different origins in different processes. Playwright is aligned with the architecture of the modern browsers and runs tests out-of-process. This makes Playwright free of the typical in-process test runner limitations.
